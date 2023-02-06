@@ -1,0 +1,407 @@
+:root 
+{
+    --purple-strong : #69297F;
+    --purple-middle : #904D9B;
+    --purple-clear  : #f371ca;
+    --blue-strong   : #285192;
+    --blue-middle   : #2A62B0;
+    --blue-clear    : #31A7DF;
+    --white         : #DFECF4;
+    --grey          : #A6B8C4;
+    --black         : #000018;
+    --star          : #FFFDFF;
+}
+*
+{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html
+{
+    font-size: 62.5%;
+}
+.container
+{
+    display: flex;
+    justify-content: start;
+}
+.background-container
+{
+    background: rgb(14,5,50);
+    background: radial-gradient(circle, rgba(14,5,50,1) 0%, rgba(2,0,39,1) 19%, rgba(2,0,39,1) 40%, rgba(1,0,30,1) 65%, rgba(20,30,35,1) 100%);
+    width: 800px;
+    height: 800px;
+    position: relative;
+
+}
+.planet-1
+{
+    width: 200px;
+    height: 200px;
+    background-color: var(--purple-strong);
+    position: absolute;
+    border-radius: 50%;
+    border: 8px solid var(--black);
+    top: 40px;
+    left: 40px;
+    overflow: hidden;
+}
+.color-planet2
+{
+    width: 200px;
+    height: 200px;
+    background-color: var(--purple-clear);
+    border-radius: 50%;
+    position: absolute;
+    left:70px;
+}
+
+.color-planet1
+{
+    width: 100px;
+    height: 40px;
+    border-radius: 50%;
+    border-bottom: 8px solid var(--purple-middle);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transform: rotate(20deg);
+
+}
+.line1
+{
+    top: 2px;
+    left: 47px;
+    width: 80px;
+    height: 45px;
+}
+ .line2
+{
+    top: 16px;
+    left: 50px;
+    width: 100px;
+    height: 42px;
+    transform: rotate(10deg);
+
+}
+.line3
+{
+    top: 41px;
+    left: 60px;
+    width: 40px;
+    height: 20px;
+    transform: rotate(15deg);
+}
+
+.line4
+{
+    top: 35px;
+    left: 50px;
+    width: 80px;
+    height: 35px;
+    transform: rotate(10deg);
+}
+
+.line5
+{
+    top: 45px;
+    left: 30px;
+    width: 110px;
+    height: 30px;
+    transform: rotate(10deg);
+}
+.line6
+{
+    top: 50px;
+    left: 40px;
+    width: 90px;
+    height: 30px;
+    transform: rotate(10deg);
+
+}
+.line7
+{
+    top: 45px;
+    left: 40px;
+    width: 80px;
+    height: 45px;
+    transform: rotate(10deg);
+}
+.line8
+{
+    top: 72px;
+    left: 40px;
+    width: 90px;
+    height: 25px;
+    transform: rotate(10deg);
+}
+.line9
+{
+    top: 84px;
+    left: 50px;
+    width: 70px;
+    height: 20px;
+    transform: rotate(10deg);
+}
+
+.line10
+{
+    top: 80px;
+    left: 35px;
+    width: 120px;
+    height: 32px;
+    transform: rotate(10deg);
+}
+.line11
+{
+    top: 83px;
+    left: 20px;
+    width: 100px;
+    height: 30px;
+    transform: rotate(15deg);
+}
+.line12
+{
+    top: 90px;
+    left: 20px;
+    width: 100px;
+    height: 30px;
+    transform: rotate(15deg);
+}
+.line13
+{
+    top: 100px;
+    left: 20px;
+    width: 120px;
+    height: 30px;
+    transform: rotate(15deg);
+}
+.line14
+{
+    top: 122px;
+    left: 60px;
+    width: 80px;
+    height: 20px;
+    transform: rotate(10deg);
+}
+.line15
+{
+    top: 126px;
+    left: 56px;
+    width: 60px;
+    height: 20px;
+    transform: rotate(15deg);
+} 
+.line16
+{
+    top: 130px;
+    left: 38px;
+    width: 78px;
+    height: 20px;
+    transform: rotate(15deg);
+} 
+.line17
+{
+    top: 138px;
+    left: 53px;
+    width: 52px;
+    height: 20px;
+    transform: rotate(15deg);
+} 
+.line18
+{
+    top: 142px;
+    left: 59px;
+    width: 38px;
+    height: 20px;
+    transform: rotate(15deg);
+} 
+.line19
+{
+    top: 152px;
+    left: 72px;
+    width: 38px;
+    height: 20px;
+    transform: rotate(15deg);
+} 
+.line20
+{
+    top: 160px;
+    left: 73px;
+    width: 42px;
+    height: 20px;
+    transform: rotate(10deg);
+} 
+.line21
+{
+    top: 168px;
+    left: 90px;
+    width: 25px;
+    height: 20px;
+    transform: rotate(-5deg);
+} 
+
+/*/BORDE PLANETA/*/
+.color-planet1-border
+{
+    position: absolute;
+    border-radius: 50%;
+    top: -6px;
+    width: 100px;
+    height: 50px;
+    background-color: transparent;
+    transform: rotate(10deg);
+    left: 50px;
+    border-right: 16px solid var(--purple-middle);
+    border-top: 16px solid var(--purple-middle);
+    border-bottom: 16px solid var(--purple-middle);
+}
+.border-planet1
+{
+    background-color: var(--purple-strong);
+
+}
+.border-planet2
+{
+    width: 200px;
+    height: 120px;
+    top: -34px;
+    left: -24px;
+    transform: rotate(20deg);
+    background-color: transparent;
+}
+.border-planet3
+{
+    top: 84px;
+    transform: rotate(20deg);
+    left: -20px;
+    border-top:none ;
+}
+.border-planet4
+{
+    top: 104px;
+    width: 128px;
+    transform: rotate(-20deg);
+    background-color: transparent;
+    left: 120px;
+    border-top:none ;
+    border-right: none;
+}
+.border-planet5
+{
+    width: 300px;
+    height: 120px;
+    background-color: transparent;
+    transform: rotate(25deg);
+    top: 34px;
+    left: -105px;
+    border-top:none ;
+    border-right:none ;
+}
+.border-planet6
+{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    top: -10px;
+    left: -33px;
+    border-right: 8px solid var(--purple-middle);
+}
+/*///////////////////LINEAS COLOR PLANETA///////////*/
+.color-planet1-line 
+{
+    position: absolute;
+    border-radius: 50%;
+    top: -6px;
+    width: 100px;
+    height: 50px;
+    background-color: transparent;
+    transform: rotate(10deg);
+    left: 50px;
+    border-right: 8px solid var(--black);
+    border-top: 8px solid var(--black);
+    border-bottom: 8px solid var(--black);
+}
+.line-planet1
+{
+}
+.line-planet2
+{
+    width: 200px;
+    height: 120px;
+    top: -40px;
+    left: -25px;
+    transform: rotate(20deg);
+    background-color: transparent;
+}
+.line-planet3
+{
+    top: 80px;
+    transform: rotate(20deg);
+    left: -20px;
+    border-top:none ;
+}
+.line-planet4
+{
+    top: 100px;
+    width: 120px;
+    transform: rotate(-20deg);
+    background-color: transparent;
+    left: 120px;
+    border-top:none ;
+    border-right: none;
+}
+.line-planet5
+{
+    width: 300px;
+    height: 120px;
+    background-color: transparent;
+    transform: rotate(25deg);
+    top: 30px;
+    left: -105px;
+    border-top:none ;
+    border-right:none ;
+}
+/*///////////////////ROCAS DEL PLANTETA//////////*/
+.circle-planet1
+{
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: var(--black);
+}
+.circle1
+{
+    top: 10px;
+    left: 100px;
+}
+.circle2
+{
+    width: 5px;
+    height: 5px;
+    top: 65px;
+    left: 75px;
+}
+.circle3
+{
+    width: 7px;
+    height: 7px;
+    top:80px;
+    left: 30px;
+}
+.circle4
+{
+    width: 30px;
+    height: 25px;
+    top:100px;
+    left: 125px;
+}
+.circle5
+{
+    width: 7px;
+    height: 7px;
+    top:155px;
+    left: 120px;
+}
